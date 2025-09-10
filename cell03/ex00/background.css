@@ -1,0 +1,31 @@
+body {
+    transition: background 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.fade {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

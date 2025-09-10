@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random Background</title>
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+    <div>
+        <button id="colorBtn">Click me!</button>
+    </div>
+    <script>
+        function getRandomColor() {
+            return '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
+        }
+
+        document.getElementById('colorBtn').onclick = function() {
+            document.body.style.background = getRandomColor();
+        };
+    </script>
+</body>
+</html>
