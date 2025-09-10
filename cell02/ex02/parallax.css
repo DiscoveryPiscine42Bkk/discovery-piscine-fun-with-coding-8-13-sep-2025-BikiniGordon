@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.parallax {
+    position: relative;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-top {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/2k5rHFB7scp6VLqu8UZLa9.jpg');
+}
+
+.parallax-bottom {
+    background-image: url('https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/497044467_1153030316850975_7590464074352666271_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEHZDb7v82iK10pE2yvkqJST6FAVSn4mcdPoUBVKfiZx0nbKow5BJj7WOY3HJCXOB0V_F1RlCtwM_et7Sl4hKqI&_nc_ohc=S7acbc3a2SsQ7kNvwFESSeO&_nc_oc=Admu5y-tJfXY07504teiL5euWLy-f_0ZyWCjLO3Bp7rF0H9qLCMBJpmNDa6XuuOXrC0&_nc_zt=23&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=4MFnbFqh_J6P9h1zfD2XpQ&oh=00_AfZxCBIU4EV3CB06-lzpBJ4-miaDZxweAyVQjeLZXn3GMw&oe=68C6EC0C');
+}
+
+.center-message {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 32px 48px;
+    border-radius: 16px;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+.block {
+    background: #111;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-message {
+    color: #fff;
+    font-size: 1.7em;
+    padding: 24px 32px;
+    text-align: center;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.08);
+}

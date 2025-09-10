@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+}
+td {
+    width: 50vw;
+    height: 100vh;
+    font-size: 2vw;
+}
