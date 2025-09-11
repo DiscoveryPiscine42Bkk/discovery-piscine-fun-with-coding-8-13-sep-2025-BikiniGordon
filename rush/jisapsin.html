@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>John Doe | Modern Resume</title>
+    <title>JISAPSIN | Fun with Code Portfolio</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="jisapsin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,87 +9,61 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <span class="logo">JISAPSIN</span>
+            <a href="https://youtu.be/xvFZjo5PgG0?si=M_4p0O4AGhdCD13j" target="_blank" style="text-decoration: none;">
+                <span class="logo">JISAPSIN</span>
+            </a>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-        <section id="about" class="section hero" style="position:relative; overflow:hidden;">
-            <div class="hero-bg"></div>
-            <div class="hero-content">
+    <section id="about" class="section hero" style="position:relative; overflow:hidden;">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <a href="#" onclick="window.open('https://youtu.be/xvFZjo5PgG0?si=M_4p0O4AGhdCD13j'); return false;">
                 <h1>JISAPSIN</h1>
-                <h2>Hi! Welcome to my Fun with Code Portfolio!</h2>
-                <p class="tagline">This is a portfolio showcasing my skills and projects.</p>
-            </div>
-        </section>
-        <section id="experience" class="section">
-            <h2 class="underline">My Study Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <!-- <span class="timeline-date">2022–2025</span> -->
-                    <div>
-                        <strong>KMITL</strong><br>
-                        <span class="desc">I'm a second year student at King Mongkut's Institute of Technology Ladkrabang.</span>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <!-- <span class="timeline-date">2020–2022</span> -->
-                    <div>
-                        <strong>FUN WITH CODE</strong><br>
-                        <span class="desc">I enrolled in the Fun with Code subject which is host by 42 Bangkok in a Discovery Piscine : Web Programming Essentials.</span>
-                </div>
-            </div>
-        </section>
-        <section id="skills" class="section">
-            <h2 class="underline">Some Of My Programming Skills</h2>
-            <div class="skills-list">
-                <span>Python</span>
-                <span>C</span>
-                <span>Vibing Expert</span>
-                <span>Beginner Shell Script</Script></span>
-                <span>A Little Bit Of HTML</span>
-                <span>And Some CSS</span>
-            </div>
-        </section>
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>Portfolio Website</h3>
-                    <p>Personal portfolio built with React and styled-components. <a href="#">View Project</a></p>
-                </div>
-                <div class="project-card">
-                    <h3>Task Manager App</h3>
-                    <p>Full-stack app for managing daily tasks, built with Node.js and MongoDB. <a href="#">View Project</a></p>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="section">
+            </a>
+            <p class="tagline">Professional Unemployed</p>
+            <h2>Hi! Welcome to my Fun with Code Portfolio!</h2>
+        </div>
+    </section>
+    <section id="skills" class="section" style="position: relative;">
+        <div class="skills-bg"></div>
+        <h2 class="underline">Some Of My Programming Skills</h2>
+        <div class="skills-list">
+            <span>Python</span>
+            <span>C</span>
+            <span>Vibing Expert</span>
+            <span>Beginner Shell Script</span>
+            <span>A Little Bit Of HTML</span>
+            <span>And Some CSS</span>
+        </div>
+    </section>
+    <section id="contact" class="section" style="position:relative;">
+        <div class="contact-bg"></div>
+        <div class="contact-blur-box">
             <h2>Contact</h2>
             <ul class="contact-list">
-                <li><strong>Email:</strong> johndoe@email.com</li>
-                <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/johndoe</a></li>
-                <li><strong>GitHub:</strong> <a href="#">github.com/johndoe</a></li>
+                <li><strong>Email:</strong> jisapsin@student.42bangkok.com</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/DiscoveryPiscine42Bkk/discovery-piscine-fun-with-coding-8-13-sep-2025-BikiniGordon/tree/main">DiscoveryPiscine42Bkk GitHub</a></li>
             </ul>
-        </section>
-        <footer>
-            <p>&copy; 2025 John Doe. All rights reserved.</p>
-        </footer>
-        <script>
-document.addEventListener('scroll', function() {
-    const navbar = document.querySelector('.navbar');
-    const hero = document.querySelector('.hero');
-    if (window.scrollY > hero.offsetHeight - navbar.offsetHeight) {
-        navbar.classList.add('dark');
-    } else {
-        navbar.classList.remove('dark');
-    }
-});
-</script>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 jisapsin</p>
+    </footer>
+    <script>
+    document.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        const hero = document.querySelector('.hero');
+        if (window.scrollY > hero.offsetHeight - navbar.offsetHeight) {
+            navbar.classList.add('dark');
+        } else {
+            navbar.classList.remove('dark');
+        }
+    });
+    </script>
 </body>
 </html>
