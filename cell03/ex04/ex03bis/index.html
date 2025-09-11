@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Task Manager</title>
+    <meta charset="UTF-8">
+    <style>
+        #ft_list {
+            margin-top: 20px;
+            min-width: 250px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        .todo-item {
+            background: #e3e3ff;
+            margin-bottom: 8px;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .todo-item:hover {
+            background: #ffdede;
+        }
+        #newBtn {
+            padding: 8px 16px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="newBtn">New</button>
+    <div id="ft_list"></div>
+    <script src="todo.js"></script>
+</body>
+</html>
