@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Personal Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background: url('https://img.freepik.com/free-photo/top-view-desk-concept-with-gray-background_23-2148236825.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(8px);
+            z-index: -1;
+        }
+
+        nav {
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 10px 20px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            max-width: 1000px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            margin-top: 80px;
+            text-align: left;
+        }
+
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid gray;
+        }
+
+        .content-section {
+            flex: 2;
+            padding-left: 40px;
+        }
+
+        .content-section h3 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .contact-link {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .contact-link:hover {
+            background-color: #ccc;
+            color: white;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-link i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <nav>
+        <a href="jatothon.html">Home</a>
+        <a href="jatothonexp.html">Experience</a>
+        <a href="jatothoncontact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="image-section">
+            <img src="https://media.tenor.com/Y_7h8dRhao0AAAAe/sigma.png" alt="Profile Image">
+        </div>
+
+        <div class="content-section">
+            <h3>Contact me:</h3>
+            <a href="mailto:your-email@example.com" class="contact-link">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+            <a href="https://github.com/janedoe" class="contact-link">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/janedoe" class="contact-link">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
